@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 
 
@@ -144,6 +143,8 @@
 .section1{
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
     height: 100vh;
+    color: white;
+
     background-size: cover;
     font-size: large;
     display: flex;
@@ -154,6 +155,8 @@
 
 .section2{
     background-color: black;
+    color: white;
+
     font-size: medium;
     padding: 40px;
 }
@@ -166,6 +169,7 @@
 
 .cards{
     display: flex;
+
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px;
@@ -177,13 +181,15 @@
 .card1{
     width: 300px;
     border: 2px solid yellow;
-    color: black;
+    color: white;
+    
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .section3{
+    color: white;
     
     background-color: black;
     display: flex;
@@ -214,6 +220,8 @@
 
  .section4{
     background-color: black;
+    color: white;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
